@@ -15,7 +15,7 @@
 nmap -sV -p 1-1000 -sC -T4 <target-ip>
 Cavab: Açıq portlar 1000-dən aşağı → 3
 
-![nmap]Screenshot: (screenshots/nmap.png)
+Screenshot: (screenshots/nmap.png)
 
 Vulnerability identification:
 
@@ -164,4 +164,5 @@ Cavab: flag{admin_documents_can_be_valuable}
 
 
 Screenshot: (screenshots/flag3.png)
+
 
