@@ -41,7 +41,7 @@ Copy code
 set RHOSTS <target-ip>
 Cavab: RHOSTS
 
-Screenshot:  ![Rhosts](Rhosts.png)
+Screenshot:  ![Rhosts](screenshots/Rhosts.png)
 
 Payload təyin et:
 
@@ -164,6 +164,7 @@ Cavab: flag{admin_documents_can_be_valuable}
 
 
 Screenshot:  ![flag3](screenshots/flag3.png)
+
 
 
 
