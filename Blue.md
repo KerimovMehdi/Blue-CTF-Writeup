@@ -15,7 +15,7 @@
 nmap -sV -p 1-1000 -sC -T4 <target-ip>
 Cavab: Açıq portlar 1000-dən aşağı → 3
 
-Screenshot: (screenshots/nmap.png)
+Screenshot: ![Nmap Scan](screenshots/nmap.png)
 
 Vulnerability identification:
 
@@ -41,7 +41,7 @@ Copy code
 set RHOSTS <target-ip>
 Cavab: RHOSTS
 
-Screenshot: (Rhosts.png)
+Screenshot:  ![Rhosts](Rhosts.png)
 
 Payload təyin et:
 
@@ -130,7 +130,7 @@ Copy code
 john --format=NT --wordlist=/usr/share/wordlists/rockyou.txt hashjon.txt
 Cavab: alqfna22
 
-Screenshot: (screenshots/john.png)
+Screenshot:  ![John](screenshots/john.png)
 
 ## Task 5: Find Flags  
 
@@ -142,7 +142,7 @@ cd /
 cat flag1.txt
 Cavab: flag{access_the_machine}
 
-Screenshot: (screenshots/flag1.png)
+Screenshot:  ![flag1](screenshots/flag1.png)
 
 Flag2 – Windows parol qovluğu:
 
@@ -152,7 +152,7 @@ cd windows/System32/config
 cat flag2.txt
 Cavab: flag{sam_database_elevated_access}
 
-Screenshot: (screenshots/flag2.png)
+Screenshot:  ![flag2](screenshots/flag2.png)
 
 Flag3 – Administrator Documents (Jon qovluğu):
 
@@ -163,6 +163,7 @@ cat flag3.txt
 Cavab: flag{admin_documents_can_be_valuable}
 
 
-Screenshot: (screenshots/flag3.png)
+Screenshot:  ![flag3](screenshots/flag3.png)
+
 
 
