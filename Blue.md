@@ -11,7 +11,7 @@
 - Split-Screen view istifadə et.  
 
 **Port Scan:**  
-```bash
+
 nmap -sV -p 1-1000 -sC -T4 <target-ip>
 Cavab: Açıq portlar 1000-dən aşağı → 3
 
@@ -161,5 +161,6 @@ Copy code
 cd /Users/Jon/Documents
 cat flag3.txt
 Cavab: flag{admin_documents_can_be_valuable}
+
 
 Screenshot: (screenshots/flag3.png)
